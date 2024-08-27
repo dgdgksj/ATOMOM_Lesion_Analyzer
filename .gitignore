@@ -1,0 +1,11 @@
+.idea
+**/saved_models/*
+*.pt
+*.pyc
+*.jpg
+*.png
+*.bak
+*.h5
+*.xlsx
+*.prof
+*.zip
