@@ -19,9 +19,11 @@ The codebase was restructured to separate active runtime code from archived lega
 
 ## Demo
 
+Sample image: `test_data/images/atopy_video_0315.jpg`
+
 | Input | Segmentation output |
 | --- | --- |
-| ![Sample input](docs/assets/sample_input.jpg) | ![Sample output](docs/assets/sample_result.jpg) |
+| ![Sample input](docs/assets/sample_input_atopy_video_0315.jpg) | ![Sample output](docs/assets/sample_result_atopy_video_0315.jpg) |
 
 ## What Changed
 
@@ -76,7 +78,7 @@ Other modes:
 
 ```bash
 python scripts/run_inference.py classifier --classifier primary --image test_data/images/samples/normal_002.JPG
-python scripts/run_inference.py yolo --image test_data/images/samples/normal_002.JPG --output docs/assets/sample_result.jpg
+python scripts/run_inference.py yolo --image test_data/images/samples/normal_002.JPG --output docs/assets/sample_result_atopy_video_0315.jpg
 python scripts/run_inference.py mrcnn --image test_data/images/samples/normal_002.JPG --show
 ```
 
